@@ -1,9 +1,9 @@
 import math
 import numpy
 
-##############
+###############
 #FUNÇÕES DE TRANSLAÇÃO
-##############
+###############
 
 def translacao(dim):
     valorx = float(input(f'Escolha o valor de x: '))
