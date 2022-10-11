@@ -7,6 +7,7 @@
 Nome do Projeto: Transformações_lineares.py
 
 Autores: Javier Christian Lourenço, Lucas de Assis Pereira
+
 Depedências do projeto: numpy.
 
 Hardware usado: Processador 3.7GHz Ryzen 5 3400G, 16 GB 2666 MHz DDR4, SSD 256GB.
