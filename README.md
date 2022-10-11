@@ -6,7 +6,7 @@
 
 Nome do Projeto: Transformações_geometricas.py
 
-Autores: Javier Christian Lourenço, Lucas de Assis Pereira
+Autores: Javier Christian Lourenço, Lucas de Assis Chaves
 
 Depedências do projeto: numpy.
 
