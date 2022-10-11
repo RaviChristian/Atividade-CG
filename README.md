@@ -14,4 +14,4 @@ Hardware usado: Processador 3.7GHz Ryzen 5 3400G, 16 GB 2666 MHz DDR4, SSD 256GB
 
 Software necessário: python3.
 
-Todas as ferramentas utilizadas são gratuitas.
+Todas as ferramentas utilizadas são gratuitas..
