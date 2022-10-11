@@ -1,6 +1,19 @@
 import math
 import numpy
 
+#### Basicamente oque o código faz é pegar os valores de entrada (x',y',z',angulo) para cada operação
+#### Vai substituir o valor da operação na fórmula, e após isso vai inserir essa formula com os valores
+#### e vai inserir em um array chamado matriz_composta. 
+#### Para calcular a matriz composta apenas iterei sobre o array matriz_composta multiplicando cada matriz
+#### e ao final retorna a matriz resultante dessas multiplicações.
+
+#### Para o resultado final apenas multipliquei a matriz de entrada pela matriz composta.
+
+
+#### ps: Para testar, altere as matrizes relativas ao [[x],[y],[z]] na funç
+
+
+
 ###############
 #FUNÇÕES DE TRANSLAÇÃO
 ###############
@@ -259,7 +272,6 @@ def execucao(matriz):
     resultado = matriz_composta[0]
     for i in range (1, len(matriz_composta)):
         resultado = numpy.matmul(resultado, matriz_composta[i])
-        numpy.matmul(resultado, matriz_composta[i])
     
     return numpy.matmul(resultado, matriz)
 
@@ -268,9 +280,9 @@ def execucao(matriz):
 
 def main():
     
-    matriz2d = [[12], [4], [1]] #MATRIZ 2D PARA TESTE
-    matriz3d = [[12], [4], [8], [1]] #MATRIZ 3D PARA TESTE
-    print(execucao(matriz2d))
+    matriz2d = [[12], [4], [1]] #MATRIZ DE PONTO 2D PARA TESTE
+    matriz3d = [[12], [4], [8], [1]] #MATRIZ DE PONTO 3D PARA TESTE
+    print(execucao(matriz3d))
 
 
 
